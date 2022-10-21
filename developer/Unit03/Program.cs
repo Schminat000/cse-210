@@ -1,12 +1,16 @@
-﻿using System;
+﻿using unit03_jumper;
 
-namespace Unit03
+
+namespace unit03_jumper
 {
+    // The program's entry point.
     class Program
     {
+        // Starts the program using the given arguments.
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Director director = new Director();
+            director.StartGame();
         }
     }
 }
